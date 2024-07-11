@@ -2,10 +2,16 @@
 [build]
   command = "npm run build"
   functions = "./functions"
+  excludedPath = [
+    "/.netlify/functions/*"
+  ]
   publish = "dist/angular-sanity-one/browser"
 [dev]
   command = "npm run start"
   functions = "functions"
+  excludedPath = [
+    "/.netlify/functions/*"
+  ]
   publish = "src"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
