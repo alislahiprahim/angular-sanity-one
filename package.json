@@ -21,6 +21,7 @@
     "@angular/platform-server": "^18.0.0",
     "@angular/router": "^18.0.0",
     "@angular/ssr": "^18.0.7",
+    "@netlify/functions": "^2.8.1",
     "@sanity/block-content-to-html": "^2.0.0",
     "@sanity/client": "^6.20.2",
     "@sanity/image-url": "^1.0.2",
